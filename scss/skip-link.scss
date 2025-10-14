@@ -1,0 +1,26 @@
+@use 'mixins.scss' as *;
+
+.screen-reader-text {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px,1px,1px,1px);
+}
+
+.screen-reader-text:focus {
+  z-index: 100000;
+  top: 20px;
+  left: 20px;
+  display: block;
+  width: auto;
+  height: auto;
+  clip: auto;
+  padding: 0.5rem;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+}
+
+.skip-link:active, .skip-link:focus {
+  outline: none;
+}

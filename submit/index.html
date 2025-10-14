@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Submit an idea</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="title" content="Submit an idea">
+  <meta name="description" content="A tool for innovators designed to break creative blocks and encourage lateral thinking.">
+  <meta name="author" content="Dr Ola Michalec">
+
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://obliquemanoeuvres.com/submit/">
+  <meta property="og:title" content="Submit and idea">
+  <meta property="og:description" content="A tool for innovators designed to break creative blocks and encourage lateral thinking.">
+  <meta property="og:site_name" content="Oblique Manoeuvres">
+
+  <meta property="og:image" content="/images/obliquemanoeuvres.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+
+  <link rel="canonical" href="https://obliquemanoeuvres.com/submit/">
+
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+
+  <link rel="preload" as="font" href="/fonts/spacegrotesk-medium.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="/fonts/spacegrotesk-regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="/fonts/spacemono-regular.woff2" type="font/woff2" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/style.min.css?v=1.0.1">
+</head>
+<body class="submit">
+  <a class="skip-link screen-reader-text" href="#maincontent">Skip to content</a>
+  <header>
+    <div class="navbar">
+      <div class="inner-wrapper">
+        <div class="logo">
+          <a href="/" title="Go to the homepage">Oblique Manoeuvres</a>
+        </div>
+        <div class="menu-toggle">
+          <nav id="desktop-nav">
+            <ul>
+              <li><a href="/how-to-play/" title="How to play Oblique Manoeuvres">How to play</a></li>
+              <li><a class="active" href="/submit/" title="Submit an idea">Submit an idea</a></li>
+            </ul>
+          </nav>
+          <a href="/shuffle/" class="button" title="Shuffle deck">Shuffle deck <img aria-hidden="true" width="22" height="26" src="/images/cards.svg" alt="Three cards stacked op top of one another"></a>
+          <button type="button" class="menu-toggle-btn" title="Toggle website menu">
+            <svg aria-hidden="true" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect y="5" width="30" height="1" />
+              <rect y="15" width="30" height="1" />
+              <rect y="25" width="30" height="1" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <nav id="mobile-nav">
+      <div class="inner-wrapper">
+        <ul>
+          <li><a href="/" title="Go to the homepage">Home</a></li>
+          <li><a href="/how-to-play/" title="How to play Oblique Manoeuvres">How to play</a></li>
+          <li><a class="active" href="/submit/" title="Submit an idea">Submit an idea</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="maincontent">
+    <div class="inner-wrapper">
+      <div class="hero bg-yellow">
+        <h1>Submit an idea</h1>
+        <div class="illo">
+          <picture>
+            <source type="image/webp" srcset="/images/submit-illo.webp">
+            <img src="/images/submit-illo.png"
+                alt="An illustration of interconnecting lines and dots"
+                loading="eager" width="284" height="263">
+          </picture>
+        </div>
+      </div>
+      <div class="section">
+        <div class="grid">
+          <div class="col--twelve col--eight-lg">
+            <p class="text--l">We are growing the collection of Oblique Manoeuvres! If you’d like to contribute to this resource, please fill in the following form:</p>
+          </div>
+        </div>
+      </div>
+      <div class="divider">
+        <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#1E3F84" stroke-opacity="0.5" stroke-width="0.75" stroke-linecap="round">
+          <path d="M0.875 1.30079C1.08805 1.3031 1.3011 2.36951 1.51415 4.5C1.94071 8.76562 2.36727 8.76562 2.79384 4.5C3.2204 0.234375 3.64696 0.234375 4.07352 4.5C4.50009 8.76562 4.92665 8.76562 5.35321 4.5C5.77977 0.234375 6.20634 0.234375 6.6329 4.5C7.05946 8.76562 7.48602 8.76562 7.91259 4.5C8.33915 0.234375 8.76571 0.234375 9.19227 4.5C9.61884 8.76562 10.0454 8.76562 10.472 4.5C10.8985 0.234375 11.3251 0.234375 11.7516 4.5C11.9647 6.63072 12.1778 7.69712 12.3909 7.69922" />
+        </svg>
+      </div>
+      <div class="section no-padding-top">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="374823c5-ba86-4880-ab02-93c49b4115d0">
+
+          <label for="innovation-challenge">What is your innovation challenge?</label>
+          <textarea id="innovation-challenge" name="innovation" placeholder="Write your innovation challenge here"></textarea>
+
+          <label for="advice-given">What advice would you give to your peers?</label>
+          <textarea id="advice-given" name="advice" placeholder="Write your advice here"></textarea>
+
+          <label for="real-life-example">Provide and example which illustrates this challenge in your work:</label>
+          <textarea id="real-life-example" name="example" placeholder="Write your example here"></textarea>
+
+          <label for="real-life-example-project">Provide an example project that others worked on which is relevant to this challenge:</label>
+          <textarea id="real-life-example-project" name="example-project" placeholder="Write your example here"></textarea>
+
+          <label for="concept-theory">Provide a concept or theory which helps to explain or tackle this challenge:</label>
+          <textarea id="concept-theory" name="concept" placeholder="Write your concept or theory here"></textarea>
+
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+          <!-- Custom Confirmation / Success Page -->
+          <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+          <button type="submit">Submit your idea</button>
+        </form>
+      </div>
+      <div class="cta bg-pink">
+        <p class="h2">Have feedback for us?</p>
+        <div class="buttons">
+          <a href="mailto:ola.michalec@bristol.ac.uk?subject=Contact%20from%20Oblique%20Manoeuvres" class="button">Contact Ola</a>
+        </div>
+        <div class="illo">
+          <picture>
+            <source type="image/webp" srcset="/images/cta-illo.webp">
+            <img src="/images/cta-illo.png"
+                alt="An illustration of interconnecting lines and dots"
+                loading="eager" width="270" height="277">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="inner-wrapper">
+    <footer>
+      <div class="grid">
+        <div class="col--twelve col--three-lg">
+          <p><strong>A tool for innovators designed to break creative blocks and encourage lateral thinking.</strong></p>
+        </div>
+        <div class="col--twelve col--four-sm col--three-lg">
+          <p class="text--mono">Research by:</p>
+          <p>Dr Ola Michalec</p>
+        </div>
+        <div class="col--twelve col--four-sm col--three-lg">
+          <p class="text--mono">Card design by:</p>
+          <p><a href="https://www.linkedin.com/in/carladelatorrelopez/?originalSubdomain=es" target="_blank" rel="noopener" title="Visit Carla del la Torre's LinkedIn profile">Carla del Torre</a></p>
+        </div>
+        <div class="col--twelve col--four-sm col--three-lg">
+          <p class="text--mono">Website design by:</p>
+          <p><a href="https://nicklewis.dev/" target="_blank" rel="noopener" title="View Nick Lewis's website">Nick lewis</a></p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="col--twelve col--three-lg">
+
+        </div>
+        <div class="col--twelve col--four-sm col--three-lg">
+          <p class="text--mono">&copy; 2025 Dr Ola Michalec</p>
+        </div>
+        <div class="col--twelve col--four-sm col--three-lg">
+          <p class="text--mono">Licence: CC BY-NC 4.0</p>
+        </div>
+        <div class="col--twelve col--four-sm col--three-lg">
+          <p class="text--mono">0.02g carbon per page view</p>
+        </div>
+      </div>
+      <img id="footer-logo" width="100" height="8" src="/images/om-logo-large.svg" alt="Oblique Manoeuvres logo">
+    </footer>
+  </div>
+  <script src="/js/main.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+// If you need to load fonts, you can use font-face like this example
+// Use multiple delcarations of font-face for different weights of the font
+
+@font-face {
+	font-family: 'Space Grotesk';
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	unicode-range: U+000-5FF; /* Downloads only latin glyphs */
+	src: url('/fonts/spacegrotesk-regular.woff2') format('woff2'),
+			 url('/fonts/spacegrotesk-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+	unicode-range: U+000-5FF; /* Downloads only latin glyphs */
+	src: url('/fonts/spacegrotesk-medium.woff2') format('woff2'),
+			 url('/fonts/spacegrotesk-medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Space Mono';
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	unicode-range: U+000-5FF; /* Downloads only latin glyphs */
+	src: url('/fonts/spacemono-regular.woff2') format('woff2'),
+			 url('/fonts/spacemono-regular.woff') format('woff');
+}
+
+body {
+	font-family: 'Space Grotesk', sans-serif;
+}

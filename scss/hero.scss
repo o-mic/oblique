@@ -1,0 +1,57 @@
+@use 'mixins.scss' as *;
+
+.hero {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    min-height: 200px;
+    padding: var(--size-900) var(--size-500) var(--size-500);
+    position: relative;
+    overflow: hidden;
+    @include media('medium') {
+        min-height: 270px;
+    }
+    @include media('large') {
+        padding: var(--size-700);
+        min-height: 300px;
+    }
+    img {
+        display: block;
+        position: absolute;
+        @include media('to-large') {
+            display: none;
+        }
+    }
+}
+
+body.home {
+    .hero {
+        @include media('large') {
+            min-height: 340px;
+        }
+        img {
+            width: auto;
+            height: 100%;
+            top: 0;
+            right: var(--size-700);
+        }
+    }
+}
+
+body.how-to-play {
+    .hero {
+        img {
+            top: 0px;
+            right: var(--size-900);
+        }
+    }
+}
+
+body.submit {
+    .hero {
+        img {
+            top: 0px;
+            right: 0;
+        }
+    }
+}

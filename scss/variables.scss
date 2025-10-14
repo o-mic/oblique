@@ -1,0 +1,59 @@
+// these are standard CSS variables as they are
+// widely supported these days we can use them
+
+:root {
+	--base-size: 18px;
+	--size-50: 0.25rem; /* 4px */
+	--size-100: 0.5rem; /* 8px */
+	--size-200: 0.777rem; /* 14px */
+	--size-300: 0.777rem; /* 14px */
+	--size-400: 1rem; /* 18px */
+	--size-500: 1.111rem; /* 20px */
+	--size-550: 1.333rem; /* 24px */
+	--size-600: 1.666rem; /* 30px */
+	--size-700: 2.222rem; /* 40px */
+	--size-800: 2.777rem; /* 50px */
+	--size-900: 3.333rem; /* 60px */
+	--size-1000: 5.555rem; /* 100px */
+	--white: #fff;
+	--off-white: #fafafa;
+	--black: #000;
+	--grey: #ccc;
+	--dark-blue: #1E3F84;
+	--light-blue: #B3DFF9;
+	--light-blue20: #D2E6F1;
+	--yellow: #EFE45D;
+	--yellow20: #EFE67A;
+	--pink: #F4B0CF;
+	--pink20: #F3CDDF;
+	--green: #9BCFAE;
+	--green20: #C6D9CD;
+	--purple: #B9B2D9;
+	--purple20: #E2DCFF;
+	--border-radius: var(--size-100);
+	--border-radius-pill: var(--size-700);
+}
+
+.bg-white {
+	background-color: var(--off-white);
+}
+
+.bg-light-blue {
+	background-color: var(--light-blue);
+}
+
+.bg-green {
+	background-color: var(--green);
+}
+
+.bg-yellow {
+	background-color: var(--yellow);
+}
+
+.bg-pink {
+	background-color: var(--pink);
+}
+
+.bg-purple {
+	background-color: var(--purple);
+}

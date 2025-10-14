@@ -1,0 +1,85 @@
+@use 'mixins.scss' as *;
+
+.inner-wrapper {
+	padding: 0 var(--size-400);
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+@include media('large') {
+	.inner-wrapper {
+		padding: 0 var(--size-700);
+	}
+}
+
+div.section:not(.no-padding) {
+	padding: var(--size-700) 0;
+	@include media('large') {
+		padding: var(--size-900) 0;
+	}
+}
+
+div.section.no-padding-top {
+	padding-top: 0;
+}
+
+.divider {
+	position: relative;
+	width: 100%;
+	height: 1px;
+	background-color: var(--dark-blue);
+	z-index: 0;
+	margin-top: 5px;
+	&:before {
+		content: "";
+		width: 17px;
+		height: 10px;
+		background-color: var(--off-white);
+		border: 1px solid var(--dark-blue);
+		position: absolute;
+		top: 50%;
+		left: calc(var(--size-900) - 3px);
+		transform: translateY(-50%);
+	}
+	svg {
+		position: absolute;
+		top: 50%;
+		left: var(--size-900);
+		transform: translateY(-50%);
+		z-index: 1;
+	}
+	&:after {
+		content: "";
+		width: 7px;
+		height: 7px;
+		background-color: var(--off-white);
+		border: 1px solid var(--dark-blue);
+		border-radius: 50%;
+		position: absolute;
+		top: 50%;
+		left: var(--size-550);
+		transform: translateY(-50%);
+	}
+	.triangle-bottom {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 0 3px 12px 3px;
+		border-color: transparent transparent var(--dark-blue) transparent;
+		transform: translateY(calc(-50% - 0.03rem)) rotate(-90deg);
+	}
+	.triangle-top {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 0 3px 12px 3px;
+		border-color: transparent transparent var(--dark-blue) transparent;
+		transform: translateY(calc(-50% - 0.03rem)) rotate(90deg);
+	}
+}

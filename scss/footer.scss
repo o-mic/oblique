@@ -1,0 +1,56 @@
+@use 'mixins.scss' as *;
+
+footer {
+	background-color: var(--dark-blue);
+	color: var(--off-white);
+	margin-block-start: var(--size-700);
+	padding-block-end: .25rem;
+	@include media('large') {
+		margin-block-start: var(--size-800);
+	}
+	* {
+		color: inherit;
+	}
+	.text--mono {
+		font-size: var(--size-200);
+		margin-block-end: .5rem;
+	}
+	p {
+		margin-block: .25rem 0;
+		a {
+			text-decoration: none;
+		}
+	}
+	.grid {
+		padding: var(--size-500);
+		@include media('large') {
+			padding: var(--size-700) var(--size-700) 0;
+		}
+		> div:first-of-type p {
+			max-width: 40ch;
+			margin-block: 0;
+			@include media('large') {
+				max-width: 21ch;
+			}
+		}
+		&:last-of-type {
+			padding: 0 var(--size-500);
+			@include media('large') {
+				padding: 0 var(--size-700);
+			}
+			@include media('to-small') {
+				gap: 0;
+			}
+		}
+	}
+	#footer-logo {
+		display: block;
+		width: calc(100% - .5rem);
+		height: auto;
+		margin-block-start: 4rem;
+		margin-inline: auto;
+		@include media('large') {
+			margin-block-start: 6rem;
+		}
+	}
+}

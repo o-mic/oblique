@@ -1,0 +1,166 @@
+@use 'mixins.scss' as *;
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-auto-rows: minmax(0px, auto);
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--size-400);
+}
+
+.col--two {
+    grid-column: span 2;
+}
+
+.col--three {
+    grid-column: span 3;
+}
+
+.col--four {
+    grid-column: span 4;
+}
+
+.col--five {
+    grid-column: span 5;
+}
+
+.col--six {
+    grid-column: span 6;
+}
+
+.col--seven {
+    grid-column: span 7;
+}
+
+.col--eight {
+    grid-column: span 8;
+}
+
+.col--nine {
+    grid-column: span 9;
+}
+
+.col--ten {
+    grid-column: span 10;
+}
+
+.col--eleven {
+    grid-column: span 11;
+}
+
+.col--twelve {
+    grid-column: span 12;
+}
+
+@include media('to-medium') {
+    .row--two-xs {
+        grid-row: span 2;
+    }
+}
+
+.grid-item {
+    width: 100%;
+    min-height: 0;
+    overflow: hidden;
+}
+
+@include media('medium') {
+    .col--two-sm {
+        grid-column: span 2;
+    }
+
+    .col--three-sm {
+        grid-column: span 3;
+    }
+
+    .col--four-sm {
+        grid-column: span 4;
+    }
+
+    .col--five-sm {
+        grid-column: span 5;
+    }
+
+    .col--six-sm {
+        grid-column: span 6;
+    }
+
+    .col--seven-sm {
+        grid-column: span 7;
+    }
+
+    .col--eight-sm {
+        grid-column: span 8;
+    }
+
+    .col--nine-sm {
+        grid-column: span 9;
+    }
+
+    .col--ten-sm {
+        grid-column: span 10;
+    }
+
+    .col--eleven-sm {
+        grid-column: span 11;
+    }
+
+    .col--twelve-sm {
+        grid-column: span 12;
+    }
+
+    .row--two-sm {
+        grid-row: span 2;
+    }
+}
+
+@include media('large') {
+    .col--two-lg {
+        grid-column: span 2;
+    }
+
+    .col--three-lg {
+        grid-column: span 3;
+    }
+
+    .col--four-lg {
+        grid-column: span 4;
+    }
+
+    .col--five-lg {
+        grid-column: span 5;
+    }
+
+    .col--six-lg {
+        grid-column: span 6;
+    }
+
+    .col--seven-lg {
+        grid-column: span 7;
+    }
+
+    .col--eight-lg {
+        grid-column: span 8;
+    }
+
+    .col--nine-lg {
+        grid-column: span 9;
+    }
+
+    .col--ten-lg {
+        grid-column: span 10;
+    }
+
+    .col--eleven-lg {
+        grid-column: span 11;
+    }
+
+    .col--twelve-lg {
+        grid-column: span 12;
+    }
+
+    .row--two-lg {
+        grid-row: span 2;
+    }
+}

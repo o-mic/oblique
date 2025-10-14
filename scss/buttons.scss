@@ -1,0 +1,52 @@
+@use 'mixins.scss' as *;
+
+.buttons {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: var(--size-400);
+}
+
+button:not(.menu-toggle-btn), .button,
+input[type="submit"], button[type="submit"]{
+	display: inline-block;
+	font-family: inherit;
+	font-size: var(--size-500);
+	font-weight: 500;
+	line-height: 1;
+	background-color: var(--dark-blue);
+	box-shadow: none;
+	border: none;
+	border-radius: var(--border-radius-pill);
+	//box-shadow: -4px 4px 0px rgba(30, 63, 132, 0.2);
+	color: var(--off-white);
+	padding: 10px 20px 12px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: background-color .25s, color .25s;
+	position: relative;
+	transform-style: preserve-3d;
+	&:after {
+		content: "";
+		width: 100%;
+		height: 100%;
+		background-color: rgba(30, 63, 132, 0.2);
+		border-radius: var(--border-radius-pill);
+		position: absolute;
+		top: 5px;
+		left: -4px;
+		transform: translateZ(-1px);
+		transition: top .25s ease-in-out, left .25s ease-in-out;
+		pointer-events: none;
+	}
+}
+
+@media(hover : hover){
+	button:not(.menu-toggle-btn):hover, .button:hover,
+	input[type="submit"]:hover, button[type="submit"]:hover,.wp-pagenavi a:hover {
+		&:after {
+			top: 0;
+			left: 0;
+		}
+	}
+}
