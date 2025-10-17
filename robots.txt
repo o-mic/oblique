@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://obliquetools.com/sitemap_index.xml
