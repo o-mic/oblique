@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://obliquetools.com/sitemap_index.xml
+Sitemap: https://obliquetools.com/sitemap.xml
