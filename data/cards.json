@@ -5,13 +5,16 @@
     "imageBack": "/images/data-sharing-card-back.jpg",
     "manoeuvre": "Design for interoperability, data portability and fair competition",
     "summary": "There is an inherent risk of a lock-in to a monopolist platform provider",
-    "quote": "",
-    "quote_cite": "",
+    "quote": "And there's monopoly of the back end, you know the business-to-business services that Kaluza or Krakenflex provide.
+    What proportion of energy suppliers use of of those two platforms and what happens in once they were just hacked?",
+    "quote_cite": "Digitalisation practitioner in critical infrastructure company",
     "example": "",
     "example_cite": "",
-    "concept": "",
-    "concept_cite": "",
-    "concept_link": "",
+    "concept": "Obligatory passage point: 
+    a point that actors (people, organisations, technologies, etc.) have to pass through to get what they want or to take part in a process.",
+    "concept_cite": "Boeva, Y., Braun, K. and Kropp, C., 2024. Platformization in the built environment: the political techno-economy of building information modeling. 
+    Science as Culture, 33(2), pp.146-173.",
+    "concept_link": "https://doi.org/10.1080/09505431.2023.2237042",
     "colour": "green"
   },
   {
