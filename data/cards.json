@@ -80,13 +80,13 @@
     "imageBack": "/images/data-sharing-card-back.jpg",
     "manoeuvre": "Recognise data politics happening beyond the offices of big cartoon villians",
     "summary": "Mundane decisions about APIs have profound consequences for power relations",
-    "quote": "",
-    "quote_cite": "",
-    "example": "",
+    "quote": "Rather than having a sector-wide APIs, the current main way of sharing data in the energy sector is through bilateral legal agreements which are difficult to scale.",
+    "quote_cite": "Digitalisation practitioner in critical infrastructure company",
+    "example": "Facebook API represents a double-edged sword. On one hand, it increases the functionality of the Facebook platform by enabling an ecology of apps using the API to exchange data with Facebook. On the other hand, the API creates notable restrictions and consequences for both app developers and users. Rather than connecting them to the Open Web, the API locks both groups into a landscape defined and controlled by Facebook.",
     "example_cite": "",
-    "concept": "",
+    "concept": "gateway",
     "concept_cite": "",
-    "concept_link": "",
+    "concept_link": "https://doi.org/10.1177/1461444816661553",
     "colour": "green"
   },
   {
