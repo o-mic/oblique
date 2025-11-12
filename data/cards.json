@@ -52,9 +52,9 @@
     "summary": "Public apathy about data sharing initiatives",
     "quote": "Most people can embrace digital technology,  but they need to be comfortable with an interface. You also need to get them comfortable with what's under the hood, you'd need to document really well this is where the data comes from. This way they can honestly appraise if they support it",
     "quote_cite": "Digitalisation practitioner in energy incubator organisation",
-    "example": "",
-    "example_cite": "",
-    "concept": "Deficit vs deliberative model of public engagement:",
+    "example": "After considering complex and sometimes conflicting evidence about the use of biomass, the majority of participants were in support of it having some role in achieving net zero. However, levels of concern about the potential environmental impact of how biomass is sourced and produced increased as the dialogue progressed. Ultimately, support for using biomass was largely driven by a desire to do everything possible to achieve net zero, rather than any specific benefit offered by biomass.",
+    "example_cite": "Public Dialogue on the role of Biomass in achieving Net Zero (2023) National Centre for Social Research",
+    "concept": "Deficit vs deliberative model of public engagement: The deficit model assumes the public’s scepticism or disagreement with technology stems from a lack of knowledge, so engagement focuses on informing or persuading them to align with expert views. In contrast, the deliberative model sees publics as knowledgeable actors whose perspectives, experiences, and values are essential to shaping science and technology decisions. Rather than one-way communication, it emphasises dialogue, mutual learning, and the co-production of knowledge and policy",
     "concept_cite": "McNeil, M., 2013. Between a rock and a hard place: The deficit model, the diffusion model and publics in STS. Science as culture, 22(4), pp.589-608.",
     "concept_link": "https://doi.org/10.1080/14636778.2013.764068",
     "colour": "green"
