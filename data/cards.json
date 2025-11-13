@@ -39,7 +39,7 @@
     "quote_cite": "Lead of Innovation Funding Agency",
     "example": "The UK government mandated use of 3D BIM for public construction projects by 2016, which triggered rapid industry adoption (from about 10% in 2012 to ~70% by 2018) and led to the creation of the PAS 1192 series of standards.These standards were then internationalised via ISO 19650 in early 2019, enabling a “single-market BIM” by structuring information workflows across the built-environment sector and aligning diverse actors through common business-process frameworks rather than proprietary software.",
     "example_cite": "How the U.K. forged a path to global BIM standards (2019) by Phil Bernstein, Archpaper",
-    "concept": "standards as ordering practices: despite appearing as mundane, standards do not only support activities, they also engage in 'ordering', deciding who participates, what counts as valid, how flows of information happen. This means standards are not neutral but political",
+    "concept": "Standards as ordering practices: despite appearing as mundane, standards do not only support activities, they also engage in 'ordering', deciding who participates, what counts as valid, how flows of information happen. This means standards are not neutral but political",
     "concept_cite": "Milan, S. and Ten Oever, N., 2017. Coding and encoding rights in internet infrastructure. Internet Policy Review, 6(1), pp.1-17.",
     "concept_link": "https://www.econstor.eu/handle/10419/214033",
     "colour": "green"
@@ -83,9 +83,9 @@
     "quote": "Rather than having a sector-wide APIs, the current main way of sharing data in the energy sector is through bilateral legal agreements which are difficult to scale.",
     "quote_cite": "Digitalisation practitioner in critical infrastructure company",
     "example": "Facebook API represents a double-edged sword. On one hand, it increases the functionality of the Facebook platform by enabling an ecology of apps using the API to exchange data with Facebook. On the other hand, the API creates notable restrictions and consequences for both app developers and users. Rather than connecting them to the Open Web, the API locks both groups into a landscape defined and controlled by Facebook.",
-    "example_cite": "",
-    "concept": "gateway",
-    "concept_cite": "",
+    "example_cite": "Digitalisation practitioner in critical infrastructure company",
+    "concept": "Gateway: a mediating interface that enables communication, translation, or interoperability between otherwise incompatible systems, standards, or networks. Gateways are not just technical connectors but sociotechnical negotiation points: they embody design decisions about what gets translated, standardized, or excluded. They often serve as control points because whoever designs or manages the gateway determines how data, access, and meaning flow across systems.",
+    "concept_cite": "Plantin, J.C., Lagoze, C., Edwards, P.N. and Sandvig, C., 2018. Infrastructure studies meet platform studies in the age of Google and Facebook. New media & society, 20(1), pp.293-310.",
     "concept_link": "https://doi.org/10.1177/1461444816661553",
     "colour": "green"
   },
