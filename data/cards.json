@@ -129,7 +129,7 @@
     "quote_cite": "Senior manager at engineering consultancy",
     "example": "Open Automated Demand Response (Open ADR) is a protocol for energy demand management. It is maintained by the OpenADR Alliance, a private membership organisation. Utilities and device manufacturers adopt the standard to interoperate, but adoption is contingent on membership, licensing, or certification.",
     "example_cite": "Open Automated Demand Response - Wikipedia",
-    "concept": "The winners and losers of commercial standards: Private standardization has been characterised as a political game: while for some firms it brings about opportunities for product development, innovation and market access, for others it means switching costs and barriers to trade.",
+    "concept": "The winners and losers of commercial standards: Private standardisation has been characterised as a political game: while for some firms it brings about opportunities for product development, innovation and market access, for others, it means switching costs and barriers to trade.",
     "concept_cite": "Verbruggen, P., 2019. Good governance of private standardization and the role of tort law. European Review of Private Law, 27(2).",
     "concept_link": "https://repository.tilburguniversity.edu/server/api/core/bitstreams/b47b50cd-e043-443e-a887-848356d0acf0/content",
     "colour": "green"
@@ -204,7 +204,7 @@
     "quote_cite": "Digitalisation practitioner in energy incubator organisation",
     "example": "The UK Government has planned to digitise patient records in the NHS for a few years now. The process is very complex, and often the blockers to modernisation seem mundane: poor security and privacy practices, lack of coordination across teams, lack of digital skills. ",
     "example_cite": "Before moving from analogue to digital, the NHS has to fix its privacy flaws (2024) Chiara Castro. tech Radar",
-    "concept": "sociology of digitisation of medical records: digitisation of medical recording is often mischaracterised as a project of computerisation, where, in fact, it has been a project of reorientating the ways in which truths are produced in medicine. We can conceptualise the difficulties in digitisation as manifestations of a political struggle relating to the power over coordination of clinical knowledge. Such a struggle takes place between the actors involved in clinical knowledge production, such as clinicians,  managers, and  scientists",
+    "concept": "Sociology of digitisation of medical records: digitisation of medical recording is often mischaracterised as a project of computerisation, where, in fact, it has been a project of reorientating the ways in which truths are produced in medicine. We can conceptualise the difficulties in digitisation as manifestations of a political struggle relating to the power over coordination of clinical knowledge. Such a struggle takes place between the actors involved in clinical knowledge production, such as clinicians,  managers, and  scientists.",
     "concept_cite": "A Sociology Of Medical Records: Digitising Clinical Knowledge (2024) Max Perry. PhD Thesis",
     "concept_link": "https://research-information.bris.ac.uk/ws/portalfiles/portal/445818460/Final_Copy_2024_10_01_Perry_M_PhD.pdf",
     "colour": "green"
@@ -219,7 +219,7 @@
     "quote_cite": "Startup founder for energy digital twin company",
     "example": "Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) is a decision support system used by U.S. courts to assess the likelihood of a defendant becoming a recidivist. The output is measured on a ‘recidivism scale’, yet in fact research shows the accuracy of COMPAS is no better than predictions made by people with little or no criminal justice expertise.",
     "example_cite": "Dressel and Farid (2018) The accuracy, fairness, and limits of predicting recidivism. Science Advances",
-    "concept": "‘sociology of quantification’ shows that numbers offer a visible social guarantee of fairness, neutrality, and impersonality, especially in domains where interpersonal trust is lacking. However, numbers are not neutral. They constrain political debate and shift authority from democratic processes to technical expertise.",
+    "concept": "Sociology of quantification: it shows that numbers offer a visible social guarantee of fairness, neutrality, and impersonality, especially in domains where interpersonal trust is lacking. However, numbers are not neutral. They constrain political debate and shift authority from democratic processes to technical expertise.",
     "concept_cite": "Porter, T. M. (1995). Trust in numbers: The pursuit of objectivity in science and public life. Princeton University Press",
     "concept_link": "https://en.wikipedia.org/wiki/Trust_in_Numbers",
     "colour": "yellow"
@@ -294,7 +294,7 @@
     "quote_cite": "Head of Engineering in Consultancy dealing wth digital twin projects",
     "example": "The project Trustworthy and Ethical Assurance of Digital Twins (TEA-DT), led by the Alan Turing Institute, has create a platform which helps users define, operationalise, and implement ethical principles as goals to be assured. It achieves this by guiding people to identify the relevant set of claims and evidence that justify their chosen ethical principles, using a participatory approach that can be embedded throughout a project's lifecycle. The output of the platform—a user-generated assurance case—can be co-designed and vetted by various stakeholders, fostering trust through open, clear, and accessible communication.",
     "example_cite": "Alan Turing Institute (2025) Trustworthy and Ethical Assurance of Digital Twins (TEA-DT). Project Page",
-    "concept": "social foundation of trust: During certification or assurance processes, regulators of complex technologies face an inevitable barrier when making technological assessments due to their insufficient domain knowledge. This forces them to delegate technical questions to people with more tacit knowledge, and hence to ‘regulate’ at a distance by evaluating ‘trust’ rather than ‘technology’.",
+    "concept": "Social foundation of trust: During certification or assurance processes, regulators of complex technologies face an inevitable barrier when making technological assessments due to their insufficient domain knowledge. This forces them to delegate technical questions to people with more tacit knowledge, and hence to ‘regulate’ at a distance by evaluating ‘trust’ rather than ‘technology’.",
     "concept_cite": "Downer, J. (2010). Trust and technology: the social foundations of aviation regulation. The British Journal of Sociology, 61(1), 83-106.",
     "concept_link": "https://doi.org/10.1111/j.1468-4446.2009.01303.x",
     "colour": "yellow"
@@ -350,13 +350,13 @@
     "imageBack": "/images/digital-twin-card-back.jpg",
     "manoeuvre": "Consider the business model–whose interests are at stake? Who are the competitors? Who might be disrupted?",
     "summary": "Digital twins are driving workers into obsolescence",
-    "quote": "",
-    "quote_cite": "",
-    "example": "",
-    "example_cite": "",
-    "concept": "",
-    "concept_cite": "",
-    "concept_link": "",
+    "quote": "We're making sure digital twins can fit into our business model. Traditionally, machine manufacturing sells product with extended warranties. Our model is dynamic, you sell machine as a service and that drives much higher profitability, predictability of revenue and customer experience.",
+    "quote_cite": "Founder of a digital twin startup",
+    "example": "Air as a Service (AaaS) is a subscription-based business model where customers pay to use air systems without owning them, similar to other ‘as a service’ models like cloud computing. This approach typically covers compressed air for industrial use or HVAC (heating, ventilation, and air conditioning) and includes the provider's responsibility for installation, maintenance, and operation",
+    "example_cite": "Providing Comfortable Air Environments Using the Best Format Possible, from Goods to Service. Daikin Group Sustainability Report 2021",
+    "concept": "Automation and deskilling debate: When products become digital services, firms often use sensing and predictive analytics to manage their assets. Decision-making moves to data analysts and automated systems, leaving frontline technicians with reduced skill demands and less control. However, automation is not a homogenous process but a more nuanced transformation: digitalisation has reshaped power, skills, with diverging paths internationally depending on sector, work organisation, and industrial policy. Automation and deskilling has been a subject of debates for several decades and it still calls for large scale empirical data to validate contrasting claims.",
+    "concept_cite": "Krzywdzinski, M. (2021). Automation, digitalization, and changes in occupational structures in the automobile industry in Germany, Japan, and the United States: a brief history from the early 1990s until 2018. Industrial and Corporate Change, 30(3), 499-535.",
+    "concept_link": "https://doi.org/10.1093/icc/dtab019",
     "colour": "yellow"
   },
   {
